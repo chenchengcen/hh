@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的公司 - 官方网站</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="page-loader">
+        <div class="loader"></div>
+    </div>
+
+    <header>
+        <nav class="navbar">
+            <div class="nav-bg"></div>
+            <div class="logo">
+                <a href="/">
+                    <div class="logo-container">
+                        <svg class="logo-svg" viewBox="0 0 200 50">
+                            <path class="logo-path" d="M20 10 L40 40 L0 40 Z" fill="#4169E1"/>
+                            <circle class="logo-circle" cx="50" cy="25" r="15" fill="#FF69B4"/>
+                            <text x="80" y="35" class="logo-text" fill="#2c3e50">TECH VISION</text>
+                        </svg>
+                    </div>
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">关于我们</a></li>
+                <li><a href="#services">服务</a></li>
+                <li><a href="#products">产品</a></li>
+                <li><a href="#contact">联系我们</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>欢迎来到我们的官网</h1>
+            <p>为您提供最优质的服务和解决方案</p>
+            <button class="cta-button">了解更多</button>
+        </section>
+
+        <section id="about" class="about">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">关于我们</h2>
+                    <div class="about-description">
+                        <p class="about-intro">我们是一家致力于技术创新和数字化转型的领先企业，专注于为客户提供全方位的技术解决方案。</p>
+                        
+                        <div class="about-features">
+                            <div class="feature-item">
+                                <i class="feature-icon innovation"></i>
+                                <h3>创新驱动</h3>
+                                <p>持续投入研发，引领技术革新，为客户创造更大价值。</p>
+                            </div>
+                            <div class="feature-item">
+                                <i class="feature-icon professional"></i>
+                                <h3>专业团队</h3>
+                                <p>拥有超过100名经验丰富的技术专家，平均从业经验8年以上。</p>
+                            </div>
+                            <div class="feature-item">
+                                <i class="feature-icon service"></i>
+                                <h3>优质服务</h3>
+                                <p>7*24小时技术支持，确保客户系统稳定运行。</p>
+                            </div>
+                        </div>
+
+                        <div class="company-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">10+</span>
+                                <span class="stat-label">年行业经验</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">1000+</span>
+                                <span class="stat-label">服务客户</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">98%</span>
+                                <span class="stat-label">客户满意度</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600" alt="关于我们">
+                    <div class="image-overlay">
+                        <span class="overlay-text">专业团队 · 优质服务</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="engineer" class="engineer-profile">
+            <div class="container">
+                <h2 class="section-title">技术团队</h2>
+                <div class="profile-content">
+                    <div class="profile-image">
+                        <img src="images/zhaoyuxuan.jpg" alt="赵宇轩 - 首席技术专家">
+                        <div class="profile-badges">
+                            <span class="badge">架构师</span>
+                            <span class="badge">AI专家</span>
+                            <span class="badge">全栈开发</span>
+                        </div>
+                        <div class="profile-video">
+                            <video controls>
+                                <source src="videos/zhaoyuxuan-intro.mp4" type="video/mp4">
+                                您的浏览器不支持视频播放
+                            </video>
+                            <div class="video-caption">技术分享：分布式系统设计</div>
+                        </div>
+                    </div>
+                    <div class="profile-info">
+                        <div class="profile-header">
+                            <h3>赵宇轩</h3>
+                            <p class="title">技术总监 / 首席架构师</p>
+                        </div>
+                        <div class="profile-details">
+                            <div class="expertise">
+                                <h4>专业领域</h4>
+                                <ul>
+                                    <li>分布式系统架构设计</li>
+                                    <li>人工智能与机器学习</li>
+                                    <li>大规模数据处理</li>
+                                    <li>云原生应用开发</li>
+                                </ul>
+                            </div>
+                            <div class="achievements">
+                                <h4>主要成就</h4>
+                                <ul>
+                                    <li>领导开发多个大型企业级应用系统</li>
+                                    <li>获得20+项技术专利</li>
+                                    <li>在国际顶级期刊发表10+篇论文</li>
+                                    <li>多个开源项目的核心贡献者</li>
+                                </ul>
+                            </div>
+                            <div class="profile-description">
+                                <p>赵宇轩先生拥有十年以上的技术研发和架构设计经验，专注于分布式系统、人工智能和云计算领域。他在清华大学获得计算机科学博士学位，曾在多家世界500强科技公司担任技术负责人。</p>
+                                <p>作为技术创新的推动者，他带领团队成功构建了多个高可用、高性能的企业级系统，为众多行业客户提供了创新的技术解决方案。他提出的微服务架构优化方案已在多个大型项目中得到成功应用。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="profile-content" style="margin-top: 6rem;">
+                    <div class="profile-info">
+                        <div class="profile-header">
+                            <h3>老王</h3>
+                            <p class="title">资深技术专家 / 安全架构师</p>
+                        </div>
+                        <div class="profile-details">
+                            <div class="expertise">
+                                <h4>专业领域</h4>
+                                <ul>
+                                    <li>网络安全架构设计</li>
+                                    <li>密码学与数据加密</li>
+                                    <li>安全漏洞分析与修复</li>
+                                    <li>DevSecOps实践</li>
+                                </ul>
+                            </div>
+                            <div class="achievements">
+                                <h4>主要成就</h4>
+                                <ul>
+                                    <li>主导设计多个大型企业安全防护系统</li>
+                                    <li>获得CISSP、CISA等多项国际认证</li>
+                                    <li>发现并修复多个重大安全漏洞</li>
+                                    <li>为多家银行提供安全咨询服务</li>
+                                </ul>
+                            </div>
+                            <div class="profile-description">
+                                <p>老王先生是网络安全领域的资深专家，拥有15年以上的安全架构设计和实施经验。他在北京大学获得信息安全博士学位，曾在多家知名安全公司担任技术总监。</p>
+                                <p>作为安全领域的权威专家，他设计的安全架构方案已在金融、政府等多个领域得到广泛应用。他对零信任架构、区块链安全等前沿技术有深入研究，经常受邀在国际安全会议上发表演讲。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile-image">
+                        <img src="images/laowang.jpg" alt="老王 - 资深技术专家">
+                        <div class="profile-badges">
+                            <span class="badge">安全专家</span>
+                            <span class="badge">架构师</span>
+                            <span class="badge">密码学</span>
+                        </div>
+                        <div class="profile-video">
+                            <video controls>
+                                <source src="videos/laowang-security.mp4" type="video/mp4">
+                                您的浏览器不支持视频播放
+                            </video>
+                            <div class="video-caption">安全架构设计分享</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <h2 class="section-title">我们的服务</h2>
+            <div class="service-grid">
+                <div class="service-card" data-aos="fade-up">
+                    <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400" alt="服务1" class="service-img">
+                    <h3>技术咨询</h3>
+                    <p>专业的技术团队为您提供全方位解决方案</p>
+                    <div class="service-overlay">
+                        <div class="overlay-content">
+                            <p>了解更多</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-card" data-aos="fade-up">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400" alt="服务2" class="service-img">
+                    <h3>项目开发</h3>
+                    <p>高质量的项目开发服务，确保按时交付</p>
+                    <div class="service-overlay">
+                        <div class="overlay-content">
+                            <p>了解更多</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-card" data-aos="fade-up">
+                    <img src="https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?w=400" alt="服务3" class="service-img">
+                    <h3>运维支持</h3>
+                    <p>7*24小时专业运维团队随时待命</p>
+                    <div class="service-overlay">
+                        <div class="overlay-content">
+                            <p>了解更多</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>联系我们</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="您的姓名" required>
+                <input type="email" placeholder="电子邮箱" required>
+                <textarea placeholder="请输入您的留言" required></textarea>
+                <button type="submit">发送消息</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>关于我们</h4>
+                <p>我们是一家致力于创新和卓越的公司，为客户提供最佳解决方案。</p>
+            </div>
+            <div class="footer-section">
+                <h4>联系方式</h4>
+                <p><i class="icon-phone"></i> 电话：123-456-789</p>
+                <p><i class="icon-email"></i> 邮箱：info@company.com</p>
+                <p><i class="icon-address"></i> 地址：XX市XX区XX街XX号</p>
+            </div>
+            <div class="footer-section">
+                <h4>快速链接</h4>
+                <p><a href="#home">首页</a></p>
+                <p><a href="#about">关于我们</a></p>
+                <p><a href="#services">服务</a></p>
+                <p><a href="#contact">联系我们</a></p>
+            </div>
+            <div class="footer-section">
+                <h4>关注我们</h4>
+                <div class="social-links">
+                    <a href="#" title="微信"><i class="icon-wechat"></i> 微信</a>
+                    <a href="#" title="微博"><i class="icon-weibo"></i> 微博</a>
+                    <a href="#" title="抖音"><i class="icon-tiktok"></i> 抖音</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 公司名称. 保留所有权利. | <a href="#">隐私政策</a> | <a href="#">服务条款</a></p>
+        </div>
+    </footer>
+
+    <button id="backToTop" class="back-to-top">
+        <i class="arrow-up"></i>
+    </button>
+
+    <div class="ai-assistant minimized" id="aiAssistant">
+        <div class="ai-trigger" id="aiTrigger">
+            <i>👩</i>
+        </div>
+        <div class="ai-header">
+            <span>AI助手</span>
+            <button class="minimize-btn" id="minimizeBtn">+</button>
+        </div>
+        <div class="chat-container" id="chatContainer">
+            <div class="chat-messages" id="chatMessages">
+                <div class="message bot">
+                    <img src="https://i.imgur.com/QXZJcK3.jpg" alt="AI" class="avatar">
+                    <div class="message-content">
+                        找我什么事？
+                    </div>
+                </div>
+            </div>
+            <div class="chat-input">
+                <input type="text" id="userInput" placeholder="请输入您的问题...">
+                <button id="sendBtn">发送</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
